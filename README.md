@@ -30,6 +30,32 @@ Each signal is encrypted by modulating its carrier phase using a pseudo-random b
 ### 3. Modulation and FDM
 Encrypted signals are modulated using DSB-SC and combined into a composite FDM signal.
 
+## Simulation Output Graphs
+
+### Message Signals
+![Message Signal 1](GraphOutputs/m1.jpeg)
+![Message Signal 2](GraphOutputs/m2.jpeg)
+
+### Carrier Signal
+![Carrier Signal](GraphOutputs/carrier.jpeg)
+
+### Pseudo-Random Encryption Setup
+![PN Sequence](GraphOutputs/PNsequence.jpeg)
+![Pulse Encryptor](GraphOutputs/pulse%20encryptor.jpeg)
+
+### Encrypted and Modulated Signals
+![Modulated Signal 1](GraphOutputs/modulated.jpeg)
+![Modulated Signal 2](GraphOutputs/modulated_2.jpeg)
+
+### Multiplexed Signal
+![FDM Composite Signal](GraphOutputs/multiplexed.jpeg)
+
+### Demultiplexing and Decryption
+![Demodulated Signal 1](GraphOutputs/demod.jpeg)
+![Demodulated Signal 2](GraphOutputs/demod_2.jpeg)
+![Decrypted Signal 1](GraphOutputs/demultiplexed.jpeg)
+![Decrypted Signal 2](GraphOutputs/demultiplexed_2.jpeg)
+
 ### 4. Demultiplexing and Decryption
 The composite signal is split and demodulated using synchronized carriers and PN sequences to decrypt each stream.
 
